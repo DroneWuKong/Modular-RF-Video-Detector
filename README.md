@@ -2,8 +2,10 @@
 
 **Compact, modular RF detector and FPV video monitor built around the Radxa Zero 3W**
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-in--development-yellow.svg)
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
+![Status](https://img.shields.io/badge/status-design--phase-yellow.svg)
+
+> **Status: Design-phase scaffold.** This repo currently contains documentation and project structure only — hardware files (BOMs, KiCAD, 3D models) and software (scanner code, `setup.sh`) are not yet implemented.
 
 ## Overview
 
@@ -91,8 +93,8 @@ See `FOLDER_STRUCTURE.md` for full layout.
 
 ## Status
 
-Active development. Hardware design in progress.
+Design-phase scaffold. Documentation and project structure are in place; hardware design files and software are not yet implemented.
 
 ## License
 
-MIT License — see LICENSE file.
+GNU General Public License v3.0 (GPLv3) — see the [LICENSE](LICENSE) file.

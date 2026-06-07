@@ -1,5 +1,9 @@
 # Folder Structure
 
+> **Note:** This is the *planned* layout. Some files marked `(planned)` below
+> do not exist yet — this repo is currently a design-phase scaffold containing
+> documentation only.
+
 ```
 Modular-RF-Video-Detector/
 │
@@ -11,22 +15,22 @@ Modular-RF-Video-Detector/
 │   │
 │   ├── base-module/                 # Radxa Zero 3W base PCB
 │   │   ├── README.md                # Base module specs + pinout
-│   │   ├── BOM.csv                  # Bill of materials
+│   │   ├── BOM.csv                  # Bill of materials (planned — not yet added)
 │   │   └── wiring/
-│   │       └── WIRING_DIAGRAM.md    # Pin-by-pin wiring guide
+│   │       └── WIRING_DIAGRAM.md    # Pin-by-pin wiring guide (planned — not yet added)
 │   │
 │   └── addon-58ghz/                 # 5.8 GHz add-on PCB
 │       ├── README.md                # Add-on specs + pinout
-│       ├── BOM.csv                  # Bill of materials
+│       ├── BOM.csv                  # Bill of materials (planned — not yet added)
 │       └── wiring/
-│           └── WIRING_DIAGRAM.md    # Pin-by-pin wiring guide
+│           └── WIRING_DIAGRAM.md    # Pin-by-pin wiring guide (planned — not yet added)
 │
 ├── software/
 │   ├── README.md                    # Software overview
 │   │
 │   ├── base/                        # Radxa Zero 3W software
 │   │   ├── README.md                # Setup + usage
-│   │   ├── setup.sh                 # One-shot setup script
+│   │   ├── setup.sh                 # One-shot setup script (planned — not yet added)
 │   │   ├── scanner/                 # RF + WiFi scanning daemon
 │   │   │   └── README.md
 │   │   └── web/                     # Web UI + video streaming
@@ -38,7 +42,7 @@ Modular-RF-Video-Detector/
 │           └── README.md
 │
 ├── case-3d/
-│   ├── README.md                    # Print instructions
+│   ├── README.md                    # Print instructions (planned — not yet added)
 │   ├── base/                        # Base module enclosure
 │   │   └── README.md
 │   └── addon/                       # Add-on module enclosure
@@ -47,8 +51,8 @@ Modular-RF-Video-Detector/
 └── docs/
     ├── README.md                    # Documentation index
     ├── ARCHITECTURE.md              # Full system architecture
-    ├── ASSEMBLY_GUIDE.md            # Step-by-step build guide
-    └── WIRING_DIAGRAM.md            # Full system wiring
+    ├── ASSEMBLY_GUIDE.md            # Step-by-step build guide (planned — not yet added)
+    └── WIRING_DIAGRAM.md            # Full system wiring (planned — not yet added)
 ```
 
 ## Quick Navigation
@@ -60,10 +64,10 @@ Modular-RF-Video-Detector/
 → `hardware/addon-58ghz/README.md`
 
 **Setting up software?**
-→ `software/base/setup.sh`
+→ `software/base/setup.sh` (planned — not yet added)
 
 **Understanding the architecture?**
 → `docs/ARCHITECTURE.md`
 
 **Wiring help?**
-→ `hardware/base-module/wiring/WIRING_DIAGRAM.md`
+→ `hardware/base-module/wiring/WIRING_DIAGRAM.md` (planned — not yet added)
