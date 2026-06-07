@@ -2,6 +2,10 @@
 
 All software runs on the Radxa Zero 3W under Debian/Ubuntu.
 
+> **Planned — not yet implemented.** This document describes the intended
+> software layout. No scanner code, web UI, or `setup.sh` exists in the repo
+> yet; the components and quick-start below are design targets.
+
 ## Components
 
 | Component | Language | Purpose |
@@ -13,12 +17,14 @@ All software runs on the Radxa Zero 3W under Debian/Ubuntu.
 | web | Python/JS | Unified web UI + WebRTC video streaming |
 | tak-sender | Python | CoT UDP output to TAK server |
 
-## Quick Start
+## Quick Start (planned)
+
+Once `setup.sh` is implemented, setup is intended to be:
 
 ```bash
 git clone https://github.com/DroneWuKong/Modular-RF-Video-Detector
 cd Modular-RF-Video-Detector/software/base
-sudo bash setup.sh
+sudo bash setup.sh   # planned — not yet added
 ```
 
 ## Web UI
